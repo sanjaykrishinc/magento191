@@ -1,3 +1,15 @@
+# Exclude Magento var dir
+var/cache
+var/sesssion
+var/locks
+var/log
+var/tmp
+var/import
+var/export
+
+#Exclude Magento media directory
+media/*
+
 # Exclude backups, archives and logs
 *.tar
 *.gz
@@ -8,15 +20,6 @@
 *.rar
 *.tgz
 
-# Exclude OS trash
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
 # Exclude Sitemap and robots.txt
 sitemap.xml
 robots.txt
@@ -25,46 +28,7 @@ robots.txt
 .idea
 nbproject
 
-# Exclude Magento var dir
-var/
-var/cache
-var/session
-redis-2.8.9/
-var/log
-var/locks
-var/export
-var/import
-var/importexport
-var/report
-var/tmp
-var/resource_config.json
-var/data-response.txt
-var/data.txt
-var/package
 
-#Exclude Magmi
-magmi
-
-#Exclude Magento media directory
-media
-!media/.htaccess
-!media/xmlconnect
-!media/wysiwyg
-!media/downloadable
-!media/dhl
-!media/customer
-
-#other Files
-#core
-
-#Exclude webstat
-webstat
-index.html
-
-#Exclude other Magento dirs
-#pkginfo
-#downloader
-#includes
 
 #Exclude configs
 app/etc/local.xml
@@ -72,7 +36,3 @@ app/etc/local.xml
 #Downloader
 downloader/config.*
 downloader/.cache
-
-#Other
-magicento.phpstorm.meta.php
-.tmp_*
