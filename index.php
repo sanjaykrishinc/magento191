@@ -1,4 +1,4 @@
-<?php echo "Development Branch Changes Test...!";
+<?php
 /**
  * Magento
  *
