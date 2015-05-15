@@ -1,6 +1,6 @@
 # Exclude Magento var dir
 var/cache
-var/sesssion
+var/session
 var/locks
 var/log
 var/tmp
