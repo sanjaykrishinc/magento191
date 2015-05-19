@@ -120,7 +120,7 @@
 ## you can put here your magento root folder
 ## path relative to web root
 
-    #RewriteBase /magento/
+    RewriteBase /magento191/
 
 ############################################
 ## uncomment next line to enable light API calls processing
@@ -166,7 +166,7 @@
 ############################################
 ## rewrite everything else to index.php
 
-    RewriteRule .* index.php [L]
+    RewriteRule .* /magento191/index.php [L]
 
 </IfModule>
 
